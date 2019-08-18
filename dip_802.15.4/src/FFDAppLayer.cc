@@ -1,10 +1,10 @@
 /* -*- mode:c++ -*- *******************************************************
  * file:        BasicApplLayer.cc
  *
- * author:      Daniel Willkomm
+ * author:     
  *
- * copyright:   (C) 2004 Telecommunication Networks Group (TKN) at
- *              Technische Universitaet Berlin, Germany.
+ * copyright:   
+ *           
  *
  *              This program is free software; you can redistribute it
  *              and/or modify it under the terms of the GNU General Public
