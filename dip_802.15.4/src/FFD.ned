@@ -1,7 +1,4 @@
-//
-// Part of project Dip_802_15_4
-// Author: bernard, 2009
-//
+
 
 //
 // Immediately sends out any message it receives. It can optionally generate
