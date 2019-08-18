@@ -1,11 +1,6 @@
 //***************************************************************************
 //* file:        BasicApplLayer.ned
 //*
-//* author:      Daniel Willkomm
-//*
-//* copyright:   (C) 2004 Telecommunication Networks Group (TKN) at
-//*              Technische Universitaet Berlin, Germany.
-//*
 //*              This program is free software; you can redistribute it 
 //*              and/or modify it under the terms of the GNU General Public 
 //*              License as published by the Free Software Foundation; either
@@ -18,10 +13,6 @@
 //* description: application layer: general class for the application layer
 //*              subclass to create your own application layer
 //***************************************************************************
-//* changelog:   $Revision: 1.3 $
-//*              last modified:   $Date: 2004/09/27 22:31:58 $
-//*              by:              $Author: omfw-willkomm $
-//***************************************************************************/
 
 
 // Basic class for the application layer
@@ -33,8 +24,7 @@
 // In this implementation all nodes randomly send broadcast packets to
 // all connected neighbors. Every node who receives this packet will
 // send a reply to the originator node.
-//
-// @author Daniel Willkomm
+
 simple RFDAppLayer
 {
     parameters:
