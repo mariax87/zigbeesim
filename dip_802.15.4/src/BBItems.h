@@ -5,14 +5,6 @@
 #include <Blackboard.h>
 #include <sstream>
 
-/**
- * @brief Hold current Bitrate of a radio, as double in bit per second
- *
- * @ingroup utils
- * @ingroup blackboard
- * @author Andreas Köpke
- * @sa Blackboard
- */
 /** @brief Theese are not needed at the moment, check this at the end of the project */
 class PhyCurrentChannel: public BBItem {
 BBITEM_METAINFO(BBItem);
