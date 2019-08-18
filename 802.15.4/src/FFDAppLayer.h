@@ -1,16 +1,5 @@
 /* -*- mode:c++ -*- ********************************************************
  * file:        FFDAppLayer.h
- *
- * author:      Bernard Halas
- *
- * copyright:   (C) 2009 Czech Technical University, Faculty of
- *              Electrical Engineering
- *
- *              This program is free software; you can redistribute it
- *              and/or modify it under the terms of the GNU General Public
- *              License as published by the Free Software Foundation; either
- *              version 2 of the License, or (at your option) any later
- *              version.
  ***************************************************************************
  * part of:     ZigBee Simulation model
  * description: - Module describing the behavior of the application layer
@@ -32,10 +21,6 @@
  * This is the generic class for all application layer modules. If you
  * want to implement your own application layer you have to subclass your
  * module from this class.
- *
- * @ingroup applLayer
- *
- * @author Daniel Willkomm
  **/
 class FFDAppLayer: public BasicApplLayer {
 public:
@@ -69,8 +54,7 @@ protected:
 	Role role;
 
 	/**
-	 * @name Handle Messages
-	 * @brief Functions to redefine by the programmer
+	 	 * @brief Functions to redefine by the programmer
 	 *
 	 * These are the functions provided to add own functionality to your
 	 * modules. These functions are called whenever a self message or a
